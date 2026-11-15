@@ -1,7 +1,7 @@
 {
  "app": "autobilanz",
  "version": 5,
- "saved": "2026-11-14T20:00:14.215Z",
+ "saved": "2026-11-15T20:03:24.467Z",
  "mode": "int",
  "mig49": 1,
  "vh": 5,
@@ -41,7 +41,7 @@
  "fy1": 2026,
  "ey0": 2016,
  "ey1": 2026,
- "fen": "f",
+ "fen": "s",
  "ff1": "E",
  "ff2": "D",
  "fs1": "H",
@@ -55,10 +55,9 @@
  "exc": [
   "v2",
   "v1",
-  "v1794077356783",
   "v1794683971925"
  ],
- "vcons": "v1794683997399",
+ "vcons": "v1794077356783",
  "cy": 10,
  "vcm1": "ekc",
  "vcm2": "",
@@ -106,10 +105,10 @@
  "lpRa": 14.04,
  "kmSel": 0,
  "kmVal": 12000,
- "kmMode": "rare",
+ "kmMode": "energy",
  "per": "5",
  "per2": "year",
- "hz": 2,
+ "hz": 22,
  "cat": "Energie",
  "cats": [
   "Energie",
@@ -128,9 +127,9 @@
   "ÖPNV",
   "E-Auto-Förderung"
  ],
- "pa": "v1794683997399",
- "pb": "none",
- "sel": "v1794683997399",
+ "pa": "v1794077356783",
+ "pb": "v1",
+ "sel": "v1794077356783",
  "vs": [
   {
    "id": "v1",
@@ -600,7 +599,7 @@
     "tuvLast": "",
     "huRes": "",
     "huDef": "",
-    "lmix": "32,34,34,0",
+    "lmix": "100,0,0,0",
     "notes": "",
     "scen": "",
     "inspLast": "",
@@ -624,7 +623,7 @@
     "adb": 25,
     "hE": 0.2468,
     "pE": 0.55,
-    "share": 66,
+    "share": 100,
     "esc": 2,
     "bat": 50,
     "rng": 300,
@@ -668,7 +667,7 @@
     "kmOv": 0,
     "sellVal": 0,
     "soh": 100,
-    "sohDeg": 1.5,
+    "sohDeg": 1.4,
     "batShare": 30,
     "pBuy": 0,
     "newVal": 0,
@@ -932,7 +931,11 @@
     "oilKm": 1,
     "ez": 1,
     "thgEnd": 1
-   }
+   },
+   "foeMu": 0,
+   "mig33": 1,
+   "mig36": 1,
+   "mig35": 1
   },
   {
    "id": "v1794683997399",
@@ -1129,20 +1132,19 @@
     "oilM": 1,
     "oilKm": 1,
     "thgEnd": 1
-   }
+   },
+   "foeMu": 0,
+   "mig33": 1,
+   "mig36": 1,
+   "mig35": 1
   }
  ],
  "mig59": 1,
  "tdp": "eur",
- "vlo": 0,
- "mig63": 1,
- "bvy": 0,
- "bvm": "ez",
- "bvg": 15,
- "bvk": "soh",
  "svS": 2,
  "svV": "v1794683997399",
- "cah": "5",
  "tcm": "now",
- "cr0": "2025-12"
+ "bvk": "soh",
+ "vlo": 0,
+ "mig63": 1
 }
